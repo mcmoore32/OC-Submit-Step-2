@@ -1,0 +1,266 @@
+/* COLOR PALETE
+
+medium brown: #5b3f1c;
+dark brown:  #483a2d;
+light beige: #f1f1f1;
+hover: #c3c3c3;
+grayed out: #b9b9b9;
+
+*/
+
+
+/*-----  Wrapper Formatting  -----*/
+
+* {
+  font-family: 'Open Sans', sans-serif;
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  background: #fff url(http://www.odonatacentral.org/views/images/BG-1.jpg) repeat-x -20px 0px;
+}
+header {
+  width: 1000px;
+  margin: 0 auto;
+  position: relative;
+  background-color: gray;
+}
+.logo {
+  position: absolute;
+  top: 20px;
+  left: 40px;
+}
+.menu-image {
+  width: 1000px;
+  margin-top: -5px;
+}
+main {
+  width: 1000px;
+  margin: -5px auto 0 auto;
+  color: #5b3f1c;
+  background-color: white;
+  height: 100vh;
+  padding: 30px;
+}
+header p {
+  font-size: 0.85rem;
+  font-weight: 400;
+  padding: 7px 0px 7px 13px;
+  margin-bottom: 0px;
+  background-color: white;
+}
+
+#copyright_info {
+  margin-top: 160px;
+}
+
+.footer-text a {
+  background-color: white;
+  color: #5b3f1c;
+  text-decoration: underline;
+}
+
+#ua_logo {
+  float: left;
+}
+
+.footer-text {
+  width: 700px;
+  float: left;
+  margin-left: 36px;
+}
+
+#ua_museum_logo {
+  float: right;
+}
+
+/*-----  Page Specific Formatting  -----*/
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 24px;
+}
+.location-box {
+  float: left;
+  display: inline-block;
+  width: 60px;
+  padding: 4px 8px;
+}
+.location-box .btn {
+  width: 48px;
+  font-size: 0.7rem;
+  margin-left: 0px;
+  margin-top: 16px;
+}
+.location {
+  display: inline-block;
+  width: 200px;
+  padding: 4px 8px;
+}
+.alert {
+  padding: 4px 16px;
+  margin-top: 32px;
+  background-color: #f1f1f1;
+  border-color: #5b3f1c;
+  border-width: 2px;
+  color: #483a2d;
+  text-align: center;
+  width: 70%;
+  margin-left: 15%;
+  font-size: 1.15rem;
+}
+
+.notes {
+  display: block;
+  font-size: 0.75rem;
+}
+.card-header {
+  padding: 0px 0px;
+  border: solid #5b3f1c 1px;
+  border-radius: 0px;
+  border-left: none;
+  background-color: #f1f1f1;
+}
+.card-link {
+  background-color: #5b3f1c;
+  display: inline-block;
+  padding: 6px 12px;
+}
+a {
+  background-color: #5b3f1c;
+  color: white;
+  width: 100px;
+}
+a:hover, .btn:hover {
+  color: #c3c3c3;
+}
+ {
+
+}
+.species-box {
+  display: inline-block;
+  width: 600px;
+  border: solid #5b3f1c 1px;
+  padding-left: 10px;
+}
+.empty {
+  color: #b9b9b9;
+}
+.color-block {
+  float: left;
+  background-color: #5b3f1c;
+  height: 310px;
+  width: 100px;
+  padding: 0;
+  margin: 0;
+}
+.card-body {
+  padding: 0;
+}
+.card-body p {
+  display: inline-block;
+  width: 135px;
+  float: left;
+  margin-top: 8px;
+}
+.collapse {
+  border: solid #5b3f1c 1px;
+  border-top: none;
+  border-left: none;
+  height: 310px;
+}
+.radio-block {
+  width: 170px;
+  float: left;
+  margin-top: 8px;
+}
+
+label {
+  padding-left: 15px;
+  margin: 0px;
+}
+.specimen-notes-box {
+  color: #b9b9b9;
+  border: solid #5b3f1c 1px;
+  display: inline-block;
+  float: left;
+  width: 407px;
+  height: 100px;
+  margin-top: 8px;
+}
+.filled {
+  color: #483a2d;
+}
+.photo-submit {
+  float: left;
+  width: 800px;
+  height: 180px;
+}
+.photo-drop {
+  width: 175px;
+  height: 150px;
+  border: solid #5b3f1c 8px;
+  float: left;
+  margin-left: 15px;
+  margin-top: 15px;
+  padding: 5px;
+}
+.photo-drop p {
+  display: block;
+  width: 100%;
+  text-align: center;
+  margin: 8px 0px;
+}
+.btn {
+  background-color: #483a2d;
+  color: white;
+  width: 80%;
+  margin: 8px 10%;
+  padding: 0px;
+}
+.thumbnail-box {
+  float: left;
+  width: 550px;
+  height: 150px;
+  margin: 15px 30px;
+  padding: 0px;
+}
+.thumbnail-box img {
+  display: block;
+  width: 150px;
+}
+.thumbnail-box .btn {
+  width: 65px;
+  font-size: 0.7rem;
+  margin: 0px 4px;
+}
+.thumbnail {
+  display: inline-block;
+  margin-right: 16px;
+}
+.delete-button {
+  float: right;
+  width: 80px;
+  margin: 0px 8px;
+  font-size: 0.7rem;
+}
+
+.new-record {
+  width: 70%;
+  margin: 8px 15%;
+}
+
+.final-submit {
+  width: 70%;
+  margin-left: 15%;
+  margin-top: 32px;
+  padding: 10px;
+  background-color: #5b3f1c;
+  font-size: 1.5rem;
+}
+
+
+
+
+

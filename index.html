@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <title>OC Mock Up</title>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <!-- Includes normalize.css -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+
+    <!-- Page Specific Styles -->
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+
+  </head>
+
+  <body>
+    <header>
+      <img src="http://www.odonatacentral.org/views/images/headerBG-1.png" alt="" class="banner-top">
+      <img src="http://www.odonatacentral.org/views/images/Logo.png" alt="" class="logo">
+      <img src="img/Menu%20Image.jpg" alt="" class="menu-image">
+      <p><b>Logged in as</b> arrow@spiketail.net | Northeast N.A. | <b><u>My Profile</u></b> | <b><u>Log out</u></b></p>
+    </header>
+
+    <main>
+      <h1>Submit Records: Enter species information</h1>
+      <div class="location-box">
+        <span class="notes">Location:</span>
+        <button class="btn">
+          Edit
+        </button>
+      </div>
+      <div class="location">
+        <span class="notes">New Castle County, DE</span>
+        <span class="notes">39.563694, -75.729570</span>
+        <span class="notes">20 October 2016</span>
+      </div>
+
+      <div class="alert alert-success alert-dismissable">
+        <button type="button" class="close" data-dismiss="alert">&times;</button>Click on <b>Record #</b> to open record | Use crop tool to crop all photos tightly
+      </div>
+      <span class='notes mt-3'></span>
+      <span class='notes'></span>
+
+      <div id="accordion">
+
+        <!--CARD 1-->
+
+        <div class="card">
+          <div class="card-header">
+            <a class="card-link" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+              Record 1
+            </a>
+            <span class='species-label'>Species: </span>
+            <span class='species-box'><i>Ischnura ramburii</i> (Rambur's Forktail)</span>
+          </div>
+          <div id="collapseOne" class="collapse">
+
+            <div class="card-body">
+              <div class="color-block">
+              </div>
+              <div class="radio-block">
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="specimen" checked> Photo Only</label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="specimen"> Specimen</label>
+                </div>
+              </div>
+              <p>Specimen Notes:</p>
+              <div class="specimen-notes-box">Click to enter specimen disposition and/or ID points
+              </div>
+
+              <div class="photo-submit">
+                <div class="photo-drop">
+                  <p>Drop up to 3 photos</p>
+                  <p>-- OR --</p>
+                  <button class="btn">Select Files</button>
+                </div>
+                <div class="thumbnail-box">
+                  <div class="thumbnail">
+                    <span>Photo 1</span>
+                    <img src=img/SmallForktail1.jpg alt="">
+                    <button class="btn">
+                      View/Crop
+                    </button>
+                    <button class="btn">
+                      Delete
+                    </button>
+                  </div>
+                  <div class="thumbnail">
+                    <span>Photo 2</span>
+                    <img src=img/SmallForktail.jpg alt="">
+                    <button class="btn">
+                      View/Crop
+                    </button>
+                    <button class="btn">
+                      Delete
+                    </button>
+                  </div>
+                  <div class="thumbnail">
+                    <span>Photo 3</span>
+                    <img src="img/dotted-box.jpg" alt="">
+                    <button class="btn">
+                      View/Crop
+                    </button>
+                    <button class="btn">
+                      Delete
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <button class="btn delete-button">Delete Record</button>
+
+            </div>
+          </div>
+        </div>
+
+        <!--CARD 2-->
+
+        <div class="card">
+          <div class="card-header">
+            <a class="collapsed card-link" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+              Record 2
+            </a>
+            <span class='species-label'>Species: </span>
+            <span class='species-box'><i>Sympetrum ambiguum</i> (Blue-faced Meadowhawk)</span>
+          </div>
+
+          <div id="collapseTwo" class="collapse show">
+
+            <div class="card-body">
+              <div class="color-block">
+              </div>
+              <div class="radio-block">
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="specimen"> Photo Only</label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="specimen" checked> Specimen</label>
+                </div>
+              </div>
+              <p>Specimen Notes:</p>
+              <div class="specimen-notes-box filled"> Specimen donated to the Smithsonian Institute.
+              </div>
+
+              <div class="photo-submit">
+                <div class="photo-drop">
+                  <p>Drop up to 3 photos</p>
+                  <p>-- OR --</p>
+                  <button class="btn">Select Files</button>
+                </div>
+                <div class="thumbnail-box">
+                  <div class="thumbnail">
+                    <span>Photo 1</span>
+                    <img src='img/smallMeadowhawk1.jpg' alt="">
+                    <button class="btn">
+                      View/Crop
+                    </button>
+                    <button class="btn">
+                      Delete
+                    </button>
+                  </div>
+                  <div class="thumbnail">
+                    <span>Photo 2</span>
+                    <img src="img/smallMeadowhawk2.jpg" alt="">
+                    <button class="btn">
+                      View/Crop
+                    </button>
+                    <button class="btn">
+                      Delete
+                    </button>
+                  </div>
+                  <div class="thumbnail">
+                    <span>Photo 3</span>
+                    <img src="img/smallMeadowhawk3.jpg" alt="">
+                    <button class="btn">
+                      View/Crop
+                    </button>
+                    <button class="btn">
+                      Delete
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <button class="btn delete-button">Delete Record</button>
+            </div>
+          </div>
+        </div>
+
+        <!--CARD 3-->
+
+        <div class="card card3">
+          <div class="card-header">
+            <a class="collapsed card-link" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+              Record 3
+            </a>
+            <span class='species-label'>Species: </span>
+            <span class='species-box empty'>Click to enter species name</span>
+          </div>
+
+          <div id="collapseThree" class="collapse show">
+
+            <div class="card-body">
+              <div class="color-block">
+              </div>
+              <div class="radio-block">
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="specimen"> Photo Only</label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="specimen"> Specimen</label>
+                </div>
+              </div>
+              <p>Specimen Notes:</p>
+              <div class="specimen-notes-box">Click to enter specimen disposition and/or ID points
+              </div>
+
+              <div class="photo-submit">
+                <div class="photo-drop">
+                  <p>Drop up to 3 photos</p>
+                  <p>-- OR --</p>
+                  <button class="btn">Select Files</button>
+                </div>
+                <div class="thumbnail-box">
+                  <div class="thumbnail">
+                    <span>Photo 1</span>
+                    <img src="img/dotted-box.jpg" alt="">
+                    <button class="btn">
+                      View/Crop
+                    </button>
+                    <button class="btn">
+                      Delete
+                    </button>
+                  </div>
+                  <div class="thumbnail">
+                    <span>Photo 2</span>
+                    <img src="img/dotted-box.jpg" alt="">
+                    <button class="btn">
+                      View/Crop
+                    </button>
+                    <button class="btn">
+                      Delete
+                    </button>
+                  </div>
+                  <div class="thumbnail">
+                    <span>Photo 3</span>
+                    <img src="img/dotted-box.jpg" alt="">
+                    <button class="btn">
+                      View/Crop
+                    </button>
+                    <button class="btn">
+                      Delete
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <button class="btn delete-button">Delete Record</button>
+
+
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+      <button class="btn new-record">Click to add new record</button>
+      <button class="btn final-submit">Submit All Records</button>
+
+      <div id="copyright_info">
+        <a href="http://www.ua.edu" target="_blank"><img id="ua_logo" width="70px" height="70px" src="https://www.odonatacentral.org/views/images/ua-logo.png" /></a>
+
+        <div class='footer-text'>Permissions to use, copy and distribute documents delivered from this server, with the exception of photographs and content related to the Dragonfly Society of the Americas, is hereby granted with restrictions.   OdonataCentral should be cited in all cases where the content is used.  <a href="/index.php/PageAction.get/name/Copyright">Click here</a> for Restrictions of Use and the correct citation.
+          Questions and Comments about this site can be sent to <a href="mailto:jabbott1@ua.edu">jabbott1@ua.edu</a>.
+        </div>
+        <a href="http://museums.ua.edu" target="_blank"><img id="ua_museum_logo" width="100" src="https://www.odonatacentral.org/views/images/ua_museum.png"/></a>
+      </div>
+
+
+    </main>
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+
+    <!-- My Javascript File -->
+    <script src='js/main.js'></script>
+
+  </body>
+
+</html>
